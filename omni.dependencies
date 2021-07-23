@@ -1,0 +1,8 @@
+[
+  {
+    "remote": "private",
+    "repository": "XDPT-Core-Devs/android_device_XTC_msm8909w-common-twrp",
+    "target_path": "device/XTC/msm8909w-common",
+    "revision": "android-7.1"
+  }
+]
