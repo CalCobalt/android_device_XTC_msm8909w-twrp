@@ -31,8 +31,8 @@ jobs:
       run: sudo apt install -y build-essential
     - name: build
       run: | 
-        sudo curl https://storage.googleapis.com/git-repo-downloads/repo > /usr/bin/repo \
-           sudo chmod +x /usr/bin/repo \
+        curl https://storage.googleapis.com/git-repo-downloads/repo > /usr/bin/repo \
+           chmod +x /usr/bin/repo \
            mkdir omni9 \
            cd omni9 \
            repo init -u git://github.com/omnirom/android.git -b android-7.1 \
